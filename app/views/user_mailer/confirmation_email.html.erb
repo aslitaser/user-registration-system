@@ -1,0 +1,11 @@
+<h1>Welcome to Our App!</h1>
+
+<p>Hi <%= @user.first_name %>,</p>
+
+<p>Thank you for signing up. Please confirm your account by clicking the link below:</p>
+
+<p><%= link_to 'Confirm my account', @confirmation_url %></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+
+<p>Thanks,<br>Our App Team</p>
